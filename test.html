@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+
+</head>
+<body>
+<script>
+    if (window.XMLHttpRequest) {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    }
+    else {
+        // code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.open("GET", "index.xml", false);
+    xmlhttp.send();
+    xmlDoc = xmlhttp.responseXML;
+
+    a = ["1", "2", 3,
+    4, 5];
+    for(var i in a)
+        console.log(i);
+    console.log(a);
+</script>
+</body>
+</html>

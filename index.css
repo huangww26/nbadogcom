@@ -1,0 +1,908 @@
+body, h1, h2, h3, ul, ol, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei UI", "Microsoft YaHei", SimHei, "宋体", SimSun, Sans-Serif;
+}
+
+ul, ol {
+    list-style: outside none none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.none {
+    display: none;
+}
+
+#header {
+    width: 100%;
+    min-width: 1263px;
+    height: 90px;
+    background-color: #1a477b;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 9999;
+}
+
+#header .center {
+    width: 1263px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+#header .logo {
+    /*width: 230px;*/
+    height: 90px;
+    background: url(img/logo.png) no-repeat;
+    text-indent: 60px;
+    float: left;
+    color: #ffffff;
+    line-height: 90px;
+}
+
+#header .link {
+    width: 650px;
+    height: 90px;
+    line-height: 90px;
+    color: #eee;
+    float: right;
+}
+
+#header .link li {
+    width: 120px;
+    text-align: center;
+    float: right;
+}
+
+#header .link a {
+    color: #eee;
+    display: block;
+}
+
+#header .link a:hover,
+#header .active a {
+    background-color: #000;
+}
+
+#headline {
+    width: 100%;
+    min-width: 1263px;
+    height: 300px;
+    /*background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(img/headline.png) no-repeat center;*/
+}
+
+#headline .center {
+    width: 1263px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#headline h2 {
+    color: #eee;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+#headline h3 {
+    color: #eee;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.main{
+    /*background: url("img/bg.jpg");*/
+}
+
+#container {
+    width: 1263px;
+    margin: 0px auto;
+    /*background: rgba(47, 8, 8, 0.44);*/
+}
+
+#container .playoff {
+    width: 900px;
+    height: 800px;
+    position: relative;
+    margin: 0px auto;
+}
+
+#container .playoff .myspan{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+#container .playoff .background {
+    margin-top: 25px;
+}
+
+#container .playoff .background img {
+    width: 100%;
+}
+
+#container .playoff .POLOGO {
+    position: absolute;
+    left: 330px;
+    top: 60px;
+    text-align: center;
+}
+
+#container .playoff .title {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#container .playoff a:hover {
+    color: red;
+}
+
+#container .playoff .GSW-HOU {
+    position: absolute;
+    left: 25px;
+    top: 85px;
+}
+
+#container .playoff .GSW-HOU img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .GSW-HOU .east13 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .GSW-HOU .east13 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .GSW-HOU .east14 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .GSW-HOU .east14 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .GSW-HOU p {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+#container .playoff .LAC-POR {
+    position: absolute;
+    left: 25px;
+    top: 245px;
+}
+
+#container .playoff .LAC-POR img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .LAC-POR .west31 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .LAC-POR .west31 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .LAC-POR .west32 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .LAC-POR .west32 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .LAC-POR p {
+    position: absolute;
+    left: 10px;
+    top: 120px;
+}
+
+#container .playoff .MEM-SAS {
+    position: absolute;
+    left: 25px;
+    top: 420px;
+}
+
+#container .playoff .MEM-SAS img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .MEM-SAS .east31 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .MEM-SAS .east31 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .MEM-SAS .east32 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .MEM-SAS .east32 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .MEM-SAS p {
+    position: absolute;
+    left: 10px;
+    top: 120px;
+}
+
+#container .playoff .DAL-OKC {
+    position: absolute;
+    left: 25px;
+    top: 580px;
+}
+
+#container .playoff .DAL-OKC img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .DAL-OKC .east21 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .DAL-OKC .east21 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .DAL-OKC .east22 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .DAL-OKC .east22 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .DAL-OKC p {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+#container .playoff .GSW-POR {
+    position: absolute;
+    left: 178px;
+    top: 160px;
+}
+
+#container .playoff .GSW-POR img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .GSW-POR .east11 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .GSW-POR .east11 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .GSW-POR .east12 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .GSW-POR .east12 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .GSW-POR p {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+#container .playoff .OKC-SAS {
+    position: absolute;
+    left: 178px;
+    top: 515px;
+}
+
+#container .playoff .OKC-SAS img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .OKC-SAS .east13 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .OKC-SAS .east13 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .OKC-SAS .east14 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .OKC-SAS .east14 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .OKC-SAS p {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+#container .playoff .GSW-OKC {
+    position: absolute;
+    left: 240px;
+    top: 335px;
+}
+
+#container .playoff .GSW-OKC img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .GSW-OKC .west31 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .GSW-OKC .west31 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .GSW-OKC .west32 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .GSW-OKC .west32 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .GSW-OKC p {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+#container .playoff .CLE-TOR {
+    position: absolute;
+    left: 530px;
+    top: 335px;
+}
+
+#container .playoff .CLE-TOR img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .CLE-TOR .east31 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .CLE-TOR .east31 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .CLE-TOR .east32 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .CLE-TOR .east32 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .CLE-TOR p {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+#container .playoff .ATL-CLE {
+    position: absolute;
+    left: 593px;
+    top: 160px;
+}
+
+#container .playoff .ATL-CLE img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .ATL-CLE .east21 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .ATL-CLE .east21 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .ATL-CLE .east22 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .ATL-CLE .east22 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .ATL-CLE p {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+#container .playoff .MIA-TOR {
+    position: absolute;
+    left: 593px;
+    top: 515px;
+}
+
+#container .playoff .MIA-TOR img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .MIA-TOR .east23 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .MIA-TOR .east23 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .MIA-TOR .east24 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .MIA-TOR .east24 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .MIA-TOR p {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+#container .playoff .CLE-DET {
+    position: absolute;
+    left: 745px;
+    top: 85px;
+}
+
+#container .playoff .CLE-DET img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .CLE-DET .east11 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .CLE-DET .east11 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .CLE-DET .east12 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .CLE-DET .east12 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .CLE-DET p {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+#container .playoff .ATL-BOS {
+    position: absolute;
+    left: 745px;
+    top: 245px;
+}
+
+#container .playoff .ATL-BOS img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .ATL-BOS .east13 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .ATL-BOS .east13 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .ATL-BOS .east14 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .ATL-BOS .east14 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .ATL-BOS p {
+    position: absolute;
+    left: 10px;
+    top: 120px;
+}
+
+#container .playoff .IND-TOR {
+    position: absolute;
+    left: 745px;
+    top: 420px;
+}
+
+#container .playoff .IND-TOR img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .IND-TOR .east15 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .IND-TOR .east15 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .IND-TOR .east16 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .IND-TOR .east16 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .IND-TOR p {
+    position: absolute;
+    left: 10px;
+    top: 120px;
+}
+
+#container .playoff .CHA-MIA {
+    position: absolute;
+    left: 745px;
+    top: 580px;
+}
+
+#container .playoff .CHA-MIA img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .CHA-MIA .east17 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .CHA-MIA .east17 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .CHA-MIA .east18 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .CHA-MIA .east18 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .CHA-MIA p {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+#container .playoff .CLE-GSW {
+    position: absolute;
+    left: 386px;
+    top: 255px;
+}
+
+#container .playoff .CLE-GSW img {
+    width: 130px;
+    height: 155px;
+}
+
+#container .playoff .CLE-GSW .final1 {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#container .playoff .CLE-GSW .final1 img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#container .playoff .CLE-GSW .final2 {
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+#container .playoff .CLE-GSW .final2 img {
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#container .playoff .CLE-GSW p {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+
+#container .sidebar {
+    /*width:90%;*/
+    overflow: hidden;
+    /*float: right;*/
+    border: 1px solid #a6eeec;
+    /*box-shadow:2px 2px 3px #aaaaaa;*/
+}
+
+#container .sidebox {
+    width: 50%;
+    margin: 0 0 10px 0;
+    text-align: center;
+    /*border: 1px solid #eeeeee;*/
+    /*padding: 0 20px 0 10px;*/
+    box-sizing: border-box;
+    float: left;
+}
+
+#container .sidebox h2 {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-indent: 8px;
+    height: 120px;
+    /*line-height: 80px;*/
+    background-color: #fafafa;
+    color: #666;
+    text-align: center;
+}
+
+#container .figure {
+    padding: 10px 0;
+
+}
+
+#container figure img {
+    width: 100%;
+}
+
+#container figure {
+    display: inline-block;
+    padding:  4px 13px 4px 13px;
+    color: #2d1066;
+    width: 65px;
+    height: 65px;
+    margin: 0 0 30px 0;
+}
+
+#container figure a{
+    color: #f9f9f9;
+}
+
+#container figure a:hover {
+    color: #00A000;
+}
+
+#container .rule {
+    line-height: 30px;
+}
+
+.scoreBox{
+    /*width: 180px;*/
+    border: solid 1px #eeeeee;
+    box-shadow:2px 2px 3px #aaaaaa;
+    border-radius: 15px;
+    padding: 5px;
+    background: #ffffff;
+    color: #000000;
+}
+
+.scoreBox table{
+    border-collapse: collapse;
+}
+
+.scoreBox tr{
+    border-bottom: solid 1px #eeeeee;
+}
+
+.scoreBox td{
+    /*width: 60px;*/
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.scoreBox .homeScore{
+    color: #d40012;
+}
+
+#footer {
+    height: 360px;
+    background-color: #222;
+    clear: both;
+    position: relative;
+    /*top: 20px;*/
+}
+
+#footer .top {
+    width: 1263px;
+    height: 281px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer .block {
+    width: 410px;
+    height: 280px;
+    display: inline-block;
+    text-align: left;
+    color: #ccc;
+    vertical-align: top;
+}
+
+#footer h2 {
+    font-size: 24px;
+    font-weight: normal;
+    padding: 20px 0 0 20px;
+}
+
+#footer hr {
+    width: 90%;
+    border: 1px dashed #333;
+}
+
+#footer ul {
+    font-size: 18px;
+    color: #777;
+    text-indent: 20px;
+    line-height: 2;
+}
+
+#footer a {
+    color: #777;
+}
+
+#footer a:hover {
+    color: green;
+}
+
+#footer .bottom {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #777;
+    background-color: #000;
+    border-top: 1px solid #444;
+}
