@@ -19,35 +19,10 @@ function parseXML() {
         // code for IE6, IE5
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
-    xmlhttp.open("GET", "http://qiumy.github.io/FE-Angles/others/nbadotcom/index.xml", false);
+    xmlhttp.open("GET", "http://huangww26.github.io/nbadogcom/index.xml", false);
     //xmlhttp.open("GET", "index.xml", false);
     xmlhttp.send();
     xmlDoc = xmlhttp.responseXML;
-
-    //text = "<playoff><games teams=\"GSW-HOU\">" +
-    //    "<game>" +
-    //    "<home name=\"GSW\">104</home>" +
-    //    "<away name=\"HOU\">78</away>" +
-    //    "<date>0417</date>" +
-    //    "</game>" +
-    //    "<game>" +
-    //    "<home name=\"GSW\">115</home>" +
-    //    "<away name=\"HOU\">106</away>" +
-    //    "<date>0419</date>" +
-    //    "</game>" +
-    //    "</games>" +
-    //    "<games teams=\"LAC-POR\">" +
-    //    "<game>" +
-    //    "<home name=\"LAC\">104</home>" +
-    //    "<away name=\"POR\">78</away>" +
-    //    "<date>0417</date>" +
-    //    "</game>" +
-    //    "<game>" +
-    //    "<home name=\"LAC\">115</home>" +
-    //    "<away name=\"POR\">106</away>" +
-    //    "<date>0419</date>" +
-    //    "</game>" +
-    //    "</games></playoff>";
 
     //parser = new DOMParser();
     //xmlDoc = parser.parseFromString(getData(), "text/xml");
