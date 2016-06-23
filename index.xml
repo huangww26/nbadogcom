@@ -447,5 +447,20 @@
             <away name="GSW">108</away>
             <date>0611</date>
         </game>
+        <game>
+            <home name="GSW">97</home>
+            <away name="CLE">112</away>
+            <date>0614</date>
+        </game>
+        <game>
+            <home name="CLE">115</home>
+            <away name="GSW">101</away>
+            <date>0617</date>
+        </game>
+        <game>
+            <home name="GSW">89</home>
+            <away name="CLE">93</away>
+            <date>0620</date>
+        </game>
     </games>
 </playoff>

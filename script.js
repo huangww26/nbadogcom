@@ -20,6 +20,7 @@ function parseXML() {
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
     xmlhttp.open("GET", "http://qiumy.github.io/FE-Angles/others/nbadotcom/index.xml", false);
+    //xmlhttp.open("GET", "index.xml", false);
     xmlhttp.send();
     xmlDoc = xmlhttp.responseXML;
 
