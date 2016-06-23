@@ -19,7 +19,7 @@ function parseXML() {
         // code for IE6, IE5
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
-    xmlhttp.open("GET", "http://qiumy.github.io/FE-Angles/others/nbadotcom/index.xml", false);
+    xmlhttp.open("GET", "http://huangww26.github.io/nbadogcom/index.xml", false);
     //xmlhttp.open("GET", "index.xml", false);
     xmlhttp.send();
     xmlDoc = xmlhttp.responseXML;
