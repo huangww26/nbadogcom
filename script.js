@@ -14,17 +14,13 @@ function parseXML() {
     if (window.XMLHttpRequest) {
         // code for IE7+, Firefox, Chrome, Opera, Safari
         xmlhttp = new XMLHttpRequest();
-    }
-    else {
+    } else {
         // code for IE6, IE5
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
     xmlhttp.open("GET", "http://huangww26.github.io/nbadogcom/index.xml", false);
     xmlhttp.send();
     xmlDoc = xmlhttp.responseXML;
-
-    //parser = new DOMParser();
-    //xmlDoc = parser.parseFromString(getData(), "text/xml");
 
     var games = xmlDoc.getElementsByTagName("games");
     for (var i = 0; i < games.length; i++) {
@@ -77,11 +73,11 @@ function getScoreBoxInnerHtml(team1, team2) {
             awayScore = data[i][1][key];
         }
         if (team1 == home) {
-            trhtml += "<tr><td>" + dateFormat(date) + '</td><td class="homeScore">' + 
-                      homeScore + "</td><td>" + awayScore + "</td></tr>"
+            trhtml += "<tr><td>" + dateFormat(date) + '</td><td class="homeScore">' +
+                homeScore + "</td><td>" + awayScore + "</td></tr>"
         } else {
-            trhtml += "<tr><td>" + dateFormat(date) + "</td><td>" + awayScore + 
-                      '</td><td class="homeScore">' + homeScore + "</td></tr>"
+            trhtml += "<tr><td>" + dateFormat(date) + "</td><td>" + awayScore +
+                '</td><td class="homeScore">' + homeScore + "</td></tr>"
         }
     }
     return "<table>" + thhtml + trhtml + "</table>";
@@ -103,7 +99,6 @@ function showScoreBox() {
 
         scoreBox.style.position = "absolute";
         if (parseInt(left.substring(0, left.indexOf("px"))) > 500) {
-            var selfWidth = document.defaultView.getComputedStyle(scoreBox, null)["width"];
             scoreBox.style.right = 900 - parseInt(left.substring(0, left.indexOf("px"))) + 5 + "px";
         } else {
             scoreBox.style.left = parseInt(left.substring(0, left.indexOf("px"))) + 135 + "px";
@@ -118,28 +113,6 @@ function showScoreBox() {
 
 function addEvent() {
     var scoreBoxes = showScoreBox();
-    /*for (var i = 1; i < 16; i++) {
-     (function () {
-     var gamesObj = document.getElementById("round" + i.toString());
-     var scoreBox = scoreBoxes[i - 1];
-     gamesObj.onmouseover = function () {
-     scoreBox.style.display = "block";
-     }
-
-     gamesObj.onmouseout = function () {
-     scoreBox.style.display = "none";
-     }
-     })();
-     var gamesObj = document.getElementById("round" + i.toString());
-     var scoreBox = scoreBoxes[i - 1];
-     gamesObj.onmouseover = function () {
-     scoreBox.style.display = "block";
-     }
-
-     gamesObj.onmouseout = function () {
-     scoreBox.style.display = "none";
-     }
-     }*/
     for (var i in TEAMS) {
         (function () {
             var gamesObj = document.getElementById(TEAMS[i]);
